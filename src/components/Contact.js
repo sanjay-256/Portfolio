@@ -42,7 +42,7 @@ const Contact = () => {
           <TextInput name="email" value={data.email} label="Email" type={"email"} onChange={change} />
           <TextInput name="subject" value={data.subject} label="Subject" type={"text"} onChange={change} />
           <TextInput name="body" value={data.body} label="Body" type={"text"} onChange={change} />
-          <div onClick={submit} className={`px-3 py-1 rounded text-white font-medium cursor-pointer ${load ? "bg-red-500" : "bg-green-500"}`}>{load ? "submiting.." : "submit"}</div>
+          <div onClick={submit} className={`px-3 py-1 rounded text-white font-medium cursor-pointer ${load ? "bg-red-500" : "bg-green-500"}`}>{load ? "submiting..." : "submit"}</div>
         </div>
       </div>
     </div>
