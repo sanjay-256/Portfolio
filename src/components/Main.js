@@ -40,8 +40,8 @@ const Main = () => {
                         </p>
                         <div className="flex justify-evenly items-center my-5">
                             <div className="text-3xl flex justify-center gap-5">
-                                <FaGithub />
-                                <FaLinkedin />
+                            <a href="https://www.linkedin.com/in/sanjay-kumar-857443283/"> <FaLinkedin /></a>
+                            <a href="https://github.com/sanjay-256"><FaGithub /></a>
                             </div>
                             <a className='bg-cyan-500 text-white px-4 py-2 rounded-md flex items-center gap-2' href="/SANJAY KUMAR D.pdf" download="Resume_SanjayKumar.pdf">Resume<HiMiniDocumentArrowDown className='text-xl' /></a>
                         </div>
