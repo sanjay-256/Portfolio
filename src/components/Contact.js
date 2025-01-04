@@ -33,7 +33,7 @@ const Contact = () => {
           <p className="font-medium">LinkedIn</p>
           <div className="">
             <FaLinkedin className='text-2xl mx-auto mt-3' />
-            <p className="text-gray-500 flex justify-center gap-2 items-center group cursor-pointer"><a href="http://localhost:3000/">Let's Connect</a> <FaArrowRight className='transform transition-transform group-hover:translate-x-2 ' /></p>
+            <p className="text-gray-500 flex justify-center gap-2 items-center group cursor-pointer"><a href="www.linkedin.com/in/sanjay-kumar-857443283">Let's Connect</a> <FaArrowRight className='transform transition-transform group-hover:translate-x-2 ' /></p>
           </div>
         </div>
         <div className="flex flex-col items-center gap-3">
